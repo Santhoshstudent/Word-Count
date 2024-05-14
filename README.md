@@ -18,8 +18,32 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+Developed by: santhosh kumar B
+
+Register no: 212223230193
+
+def wordcount(filename):
+
+    fp=open(filename)
+    
+    wordcount=0
+    
+    for i in fp:
+    
+        words=i.split()
+        
+        wordcount+=len(words)
+        
+    print("Total no of words in file is",wordcount)
+    
+    fp.close()
+    
+wordcount(input("Enter a filename in current directory or specify it with full path:"))
 
 ### OUTPUT:
+
+![image](https://github.com/Santhoshstudent/Word-Count/assets/145446853/7ac7b5e4-a6be-4912-aa35-eaefb088d5f8)
+
 
 
 
